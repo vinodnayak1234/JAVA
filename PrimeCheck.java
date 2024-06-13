@@ -1,4 +1,3 @@
-package ChatGpt;
 public class PrimeCheck {
     public static void main(String[] args) {
         int num = 29;

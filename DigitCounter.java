@@ -1,5 +1,3 @@
-package ChatGpt;
-
 public class DigitCounter {
     public static void main(String[] args) {
         int number = 0;
