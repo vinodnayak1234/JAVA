@@ -1,3 +1,4 @@
+package ImpQuestions;
 public class LeapYear {
     public static void main(String[] args) {
         int year = 1996;
@@ -12,11 +13,14 @@ public class LeapYear {
         // A year is a leaap year if it is divisible by 4
         // but years divisible by 100 are not leap years unless
         // they are also divisibe by 400
+
+        // return (year % 4 == 0) && (year % 100 != 0 || year % 400 == 0);
+
         if  (year % 4 == 0) {
             if (year % 100 == 0) {
                 if (year % 400 == 0) {
                     return true;
-                }else {
+                } else {
                     return false;
                 }
             } else {

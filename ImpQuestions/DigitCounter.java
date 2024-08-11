@@ -1,6 +1,7 @@
+package ImpQuestions;
 public class DigitCounter {
     public static void main(String[] args) {
-        int number = 0;
+        int number = 12345;
         int count = countDigits(number);
         System.out.println("Number of digits in " + number + " is " + count);
     }

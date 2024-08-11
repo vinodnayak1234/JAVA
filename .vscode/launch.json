@@ -1,0 +1,331 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "ImpQuestions.ArmstrongNumber",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStr",
+            "request": "launch",
+            "mainClass": "ReverseStr",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "ImpQuestions.ReverseString",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "CheckNegetiveOrPossitive",
+            "request": "launch",
+            "mainClass": "CheckNegetiveOrPossitive",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "PrimeCheck",
+            "request": "launch",
+            "mainClass": "PrimeCheck",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeCheck",
+            "request": "launch",
+            "mainClass": "PalindromeCheck",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "Sod",
+            "request": "launch",
+            "mainClass": "Sod",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "ArmstrongNumber",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "Factorials",
+            "request": "launch",
+            "mainClass": "Factorials",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "RegEx",
+            "request": "launch",
+            "mainClass": "ImpQuestions.RegEx",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "PrimeCheck",
+            "request": "launch",
+            "mainClass": "ImpQuestions.PrimeCheck",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "LargestOfThree",
+            "request": "launch",
+            "mainClass": "ImpQuestions.LargestOfThree",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeries",
+            "request": "launch",
+            "mainClass": "ImpQuestions.FibonacciSeries",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "SumOfNatural",
+            "request": "launch",
+            "mainClass": "ImpQuestions.SumOfNatural",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "ImpQuestions.Factorial",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "EnvenOrOdd",
+            "request": "launch",
+            "mainClass": "ImpQuestions.EnvenOrOdd",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "Staticc",
+            "request": "launch",
+            "mainClass": "Staticc",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "ClassName",
+            "request": "launch",
+            "mainClass": "ClassName",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "Static",
+            "request": "launch",
+            "mainClass": "Static",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "AreaAndPerimeterOfRectangle",
+            "request": "launch",
+            "mainClass": "ImpQuestions.AreaAndPerimeterOfRectangle",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "SelectRandomString",
+            "request": "launch",
+            "mainClass": "Arrays.SelectRandomString",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "FindDuplicateStrings",
+            "request": "launch",
+            "mainClass": "FindDuplicateStrings",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "DigitCounter",
+            "request": "launch",
+            "mainClass": "DigitCounter",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "CountEvenOddDigits",
+            "request": "launch",
+            "mainClass": "CountEvenOddDigits",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "SumOfNatural",
+            "request": "launch",
+            "mainClass": "SumOfNatural",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchExample",
+            "request": "launch",
+            "mainClass": "BinarySearchExample",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "ArrayEquality",
+            "request": "launch",
+            "mainClass": "ArrayEquality",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "PowerOfExp",
+            "request": "launch",
+            "mainClass": "PowerOfExp",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "AmstrongNumber",
+            "request": "launch",
+            "mainClass": "AmstrongNumber",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "WordCounter",
+            "request": "launch",
+            "mainClass": "WordCounter",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "RegEx",
+            "request": "launch",
+            "mainClass": "RegEx",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "FindDuplicatesInArray",
+            "request": "launch",
+            "mainClass": "FindDuplicatesInArray",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "EvenOddFromArray",
+            "request": "launch",
+            "mainClass": "EvenOddFromArray",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "LargestOfThree",
+            "request": "launch",
+            "mainClass": "LargestOfThree",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "Swap",
+            "request": "launch",
+            "mainClass": "Swap",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "MergeArrays",
+            "request": "launch",
+            "mainClass": "MergeArrays",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "UniqueValueArray",
+            "request": "launch",
+            "mainClass": "UniqueValueArray",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "EnvenOrOdd",
+            "request": "launch",
+            "mainClass": "EnvenOrOdd",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeries",
+            "request": "launch",
+            "mainClass": "FibonacciSeries",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "sod",
+            "request": "launch",
+            "mainClass": "sod",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDigits",
+            "request": "launch",
+            "mainClass": "SumOfDigits",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
+            "name": "SelectRandomString",
+            "request": "launch",
+            "mainClass": "SelectRandomString",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": "${command:pickArgs}"
+        }
+    ]
+}

@@ -1,4 +1,5 @@
-public class PalindromeCheck {
+package ImpQuestions;
+public class PalindromeString {
     public static void main(String[] args) {
         String str = "madam";
         boolean isPalindrome = checkPalindrome(str);
