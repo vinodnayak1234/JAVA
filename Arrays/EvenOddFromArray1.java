@@ -28,8 +28,8 @@ public class EvenOddFromArray1 {
         }
 
         List<List<Integer>> result = new ArrayList<>();
-        result.add(evenNumbers);
-        result.add(oddNumbers);
-        return result;
+        result.add(evenNumbers); // [2, 4, 6, 8, 10]
+        result.add(oddNumbers); // [1, 3, 5, 7, 9]
+        return result; // [[2, 4, 6, 8, 10], [1, 3, 5, 7, 9]]
     }
 }

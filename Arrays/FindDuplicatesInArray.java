@@ -15,7 +15,7 @@ public class FindDuplicatesInArray {
         Arrays.sort(array); // Sort the array
         
         for (int i = 1; i < array.length; i++) {
-            if (array[i] == array[i - 1] && !result.contains(array[i])) { // Check if current element is equal to previous element
+            if (array[i] == array[i - 1] && !result.contains(array[i])) { // Check if current element is equal to previous element && To avoid adding the same element multiple times:
                 result.add(array[i]);
             }
         }
@@ -25,7 +25,7 @@ public class FindDuplicatesInArray {
 
     public static List<Integer> findDuplicatess(int[] array) {
         List<Integer> result = new ArrayList<>();
-        Set<Integer> seen = new HashSet<>();
+        Set<Integer> seen = new HashSet<>(); // No Duplicates: && Unordered
 
         for (int num : array) {
             if (!seen.add(num)) { // If num is already in the set, add it to result (duplicate found)
