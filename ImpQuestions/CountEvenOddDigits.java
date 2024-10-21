@@ -5,23 +5,22 @@ import java.util.List;
 public class CountEvenOddDigits {
     public static void main(String[] args) {
         int number = 123456789;
-        int[] counts = countEvenOddDigits(number);
+        Object[] results = countEvenOddDigits(number);
 
-        System.out.println("Number of even digits: " + counts[0]);
-        System.out.println("Even digits: " + evenDigits);
-        System.out.println("Number of odd digits: " + counts[1]);
-        System.out.println("Odd digits: " + oddDigits);
+        System.out.println("Number of even digits: " + results[0]); // 4
+        System.out.println("Even digits: " + results[1]); // [8, 6, 4, 2]
+        System.out.println("Number of odd digits: " + results[2]); // 5
+        System.out.println("Odd digits: " + results[3]); // [9, 7, 5, 3, 1]
     }
 
-    // Lists to store even and odd digits
-    static List<Integer> evenDigits = new ArrayList<>();
-    static List<Integer> oddDigits = new ArrayList<>();
+    public static Object[] countEvenOddDigits(int number) {
+        List<Integer> evenDigits = new ArrayList<>();
+        List<Integer> oddDigits = new ArrayList<>();
 
-    public static int[] countEvenOddDigits(int number) {
         int evenCount = 0;
         int oddCount = 0;
 
-        number = Math.abs(number);  // Handle negative numbers by taking the absolute value
+        number = Math.abs(number);  // Handle negative numbers
 
         while (number != 0) {
             int digit = number % 10;  // Get the last digit
@@ -32,9 +31,9 @@ public class CountEvenOddDigits {
                 oddCount++;  // Increment odd digit count
                 oddDigits.add(digit);  // Store odd digit
             }
-            number /= 10;  // Remove the last digit from the number
+            number /= 10;  // Remove the last digit
         }
 
-        return new int[]{evenCount, oddCount};  // Return the counts as an array
+        return new Object[]{evenCount, evenDigits, oddCount, oddDigits};  // Return counts and digit lists
     }
 }

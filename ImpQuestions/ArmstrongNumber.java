@@ -16,7 +16,7 @@ public class ArmstrongNumber {
 
     public static boolean isArmStrongNumber(int num) {
         int originalNumber = num;
-        int numberOfDigits = String.valueOf(num).length();
+        int numberOfDigits = String.valueOf(Math.abs(num)).length(); // String.valueOf method converts the given argument into its string representation
 
         int sum = 0;
         while (num != 0) {
