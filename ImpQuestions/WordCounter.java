@@ -1,4 +1,5 @@
 package ImpQuestions;
+import java.util.Arrays;
 public class WordCounter {
     public static void main(String[] args) {
         String input = "  Hello world! Welcome to Java programming.  ";
@@ -16,9 +17,10 @@ public class WordCounter {
         }
 
         // Split the input string based on whitespace
-        String[] words = input.trim().split("\\s+");
+        String[] words = input.trim().split("\\s+"); // Trim remove the extra spaces :: split conver into array using white spaces 
+        System.out.println(Arrays.toString(words)); // [Hello, world!, Welcome, to, Java, programming.]
         
-        return words.length;
+        return words.length; // 6
     }
     
 }

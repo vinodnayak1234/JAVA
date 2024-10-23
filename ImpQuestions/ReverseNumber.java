@@ -13,7 +13,7 @@ public class ReverseNumber {
         
         while (n != 0) {
             int digit = n % 10;
-            reversed = reversed * 10 + digit;
+            reversed = reversed * 10 + digit;  // (123) --> 3  32  321
             n /= 10;
         }
         return reversed * sign;
