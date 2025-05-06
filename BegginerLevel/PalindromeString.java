@@ -1,4 +1,4 @@
-package ImpQuestions;
+package BegginerLevel;
 public class PalindromeString {
     public static void main(String[] args) {
         String str = "madam";

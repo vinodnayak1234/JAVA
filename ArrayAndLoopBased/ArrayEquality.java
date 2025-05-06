@@ -1,4 +1,7 @@
-package Arrays;
+package ArrayAndLoopBased;
+
+import java.util.*;
+
 public class ArrayEquality {
     public static void main(String[] args) {
         int[] array1 = {1, 2, 3, 4, 5};
@@ -23,5 +26,15 @@ public class ArrayEquality {
         }
 
         return true;
+    }
+
+    public static boolean areEqual(int[] arr1, int[] arr2) {
+        if (arr1.length != arr2.length) {
+            return false;
+        }
+
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+        return Arrays.equals(arr1, arr2);
     }
 }

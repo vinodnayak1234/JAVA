@@ -1,4 +1,4 @@
-package ImpQuestions;
+package BegginerLevel;
 public class PrimeCheck {
     public static void main(String[] args) {
         int num = 29;

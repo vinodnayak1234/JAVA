@@ -1,4 +1,4 @@
-package Arrays;
+package ArrayAndLoopBased;
 import java.util.*;
 
 public class FindDuplicatesInArray {
@@ -26,16 +26,16 @@ public class FindDuplicatesInArray {
         return result;
     }
 
-    public static List<Integer> findDuplicatess(int[] array) {
-        List<Integer> result = new ArrayList<>();
+    public static Set<Integer> findDuplicatess(int[] array) {
+        Set<Integer> duplicates = new HashSet<>();
         Set<Integer> seen = new HashSet<>(); // No Duplicates: && Unordered
 
         for (int num : array) {
             if (!seen.add(num)) { // If num is already in the set, add it to result (duplicate found)
-                result.add(num);
+                duplicates.add(num);
             }
         }
 
-        return result;
+        return duplicates;
     }
 }

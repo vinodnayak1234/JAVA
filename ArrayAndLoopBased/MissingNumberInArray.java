@@ -1,4 +1,4 @@
-package Arrays;
+package ArrayAndLoopBased;
 public class MissingNumberInArray {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 6, 7, 8, 9, 10}; // Example array with one missing number

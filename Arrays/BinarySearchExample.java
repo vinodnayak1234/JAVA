@@ -1,6 +1,8 @@
 package Arrays;
 import java.util.Arrays;
 
+// Binary search in java is an efficient algorithm used to find the position of a target element in a sorted array.
+
 public class BinarySearchExample {
     public static void main(String[] args) {
         int[] array = {1, 2, 15, 10, 4, 3, 7, 8, 9}; // Example sorted array
@@ -36,7 +38,7 @@ public class BinarySearchExample {
         int right = array.length - 1;
         
         while (left <= right) {
-            int mid = left + (right - left) / 2; // Prevents overflow
+            int mid = left + (right - left) / 2; // Prevents overflow  
 
             if (array[mid] == target) {
                 return mid; // Target found
@@ -51,3 +53,17 @@ public class BinarySearchExample {
         return -1; // Target not found
     }
 }
+
+
+// Built-in methods
+/*
+
+ import java.util.Arrays;
+ Arrays.binarySearch(arr, target)
+
+
+ import java.util.ArrayList;
+ 
+ ArrayList<Interget> list = new ArrayList<>(Arrays.asList(1,2,3,4,5));
+ boolean found = list.contains(5); // returns true if element is present
+*/

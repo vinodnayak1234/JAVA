@@ -1,4 +1,4 @@
-package Arrays;
+package ArrayAndLoopBased;
 import java.util.Arrays;
 
 public class BubbleSort {
@@ -14,11 +14,13 @@ public class BubbleSort {
     public static int[] sortArray(int[] array) {
         int[] sortedArray = array.clone(); // Clone the array to avoid modifying the original
 
-        for (int i = 0; i < array.length-1; i++) {
-            for (int j = 0; j < array.length-i-1; j++) { //// j < n - i - 1 == j < n-1
+        int size = array.length;
+        int temp = 0;
+        for (int i = 0; i < size - 1; i++) {
+            for (int j = 0; j < size - 1 - i; j++) { //// j < n - i - 1 == j < n-1
                 if (sortedArray[j] > sortedArray[j+1]) {
                     // Swap sortedArray[j] and sortedArray[j+1]
-                    int temp = sortedArray[j];
+                    temp = sortedArray[j];
                     sortedArray[j] = sortedArray[j+1];
                     sortedArray[j+1] = temp;
                     

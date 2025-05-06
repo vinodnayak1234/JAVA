@@ -1,4 +1,4 @@
-package ImpQuestions;
+package BegginerLevel;
 public class ReverseString {
     public static void main(String[] args) {
         String str = "vinod";
@@ -9,6 +9,8 @@ public class ReverseString {
     public static String reverseString(String str) {
         StringBuilder sb = new StringBuilder(str);
         return sb.reverse().toString();
+
+        // return new StringBuilder(str).reverse().toString();
     }
 
     public static String reverseStringLoop(String str) {

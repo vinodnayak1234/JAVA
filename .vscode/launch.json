@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveDuplicatesFromArray",
+            "request": "launch",
+            "mainClass": "ArrayAndLoopBased.RemoveDuplicatesFromArray",
+            "projectName": "JAVA_42a1a2e3"
+        },
+        {
+            "type": "java",
             "name": "ArmstrongNumber",
             "request": "launch",
             "mainClass": "ImpQuestions.ArmstrongNumber",

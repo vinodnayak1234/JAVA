@@ -1,5 +1,6 @@
-package ImpQuestions;
-// sum of the cubes of the digits of any number is equal to the number itself is amstrong (not only cubes)
+package LogicAndPatterns;
+// sum of the cubes of the digits of any number is equal to the number itself is amstrong (not only cubes) 
+// 0, 1, 153, 370, 371 and 407
 public class ArmstrongNumber {
     public static void main(String[] args) {
         int number = 2;
